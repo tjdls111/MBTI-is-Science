@@ -62,7 +62,7 @@ export default new Vuex.Store({
     LoadMovieList: function ({commit}) {
       axios({
         method: 'get',
-        url: 'http://15.165.76.174:80/movies/'
+        url: 'https://mbti.link/movies/'
       })
         .then((res)=>{
           // console.log(res);
@@ -73,7 +73,7 @@ export default new Vuex.Store({
     LoadMovieListBy: function ({commit}, sort_num) {
       axios({
         method: 'get',
-        url: `http://15.165.76.174:80/movies/order_by/${sort_num}/`
+        url: `https://mbti.link/movies/order_by/${sort_num}/`
       })
       .then((res)=>{
         console.log(res);
@@ -83,7 +83,7 @@ export default new Vuex.Store({
     LoadMovieDetailList: function ({ commit}, movieId) {
       axios({
         method: 'get',
-        url: `http://15.165.76.174:80/movies/${movieId}/`
+        url: `https://mbti.link/movies/${movieId}/`
       })
         .then((res)=>{
           // console.log(res.data);
@@ -93,7 +93,7 @@ export default new Vuex.Store({
       LoadArticleList: function ({commit}) {
         axios({
           method: 'get',
-          url: 'http://15.165.76.174:80/articles/'
+          url: 'https://mbti.link/articles/'
         })
         .then((res)=>{
           // console.log(res);
@@ -103,7 +103,7 @@ export default new Vuex.Store({
     LoadArticleListBy: function ({commit}, sort_num) {
       axios({
         method: 'get',
-        url: `http://15.165.76.174:80/articles/sort/${sort_num}/`
+        url: `https://mbti.link/articles/sort/${sort_num}/`
       })
       .then((res)=>{
         console.log(res);
@@ -113,7 +113,7 @@ export default new Vuex.Store({
     LoadArticleDetail: function ({commit}, articleId) {
       axios({
         method: 'get',
-        url: `http://15.165.76.174:80/articles/${articleId}/`
+        url: `https://mbti.link/articles/${articleId}/`
       })
       .then((res)=>{
           console.log(res);
@@ -136,7 +136,7 @@ export default new Vuex.Store({
 
       axios({
         method: 'get',
-        url: 'http://15.165.76.174:80/accounts/set_mbti/',
+        url: 'https://mbti.link/accounts/set_mbti/',
         headers: {"Authorization":`JWT ${localStorage.getItem('jwt')}`}
       })
         .then( (res) => {

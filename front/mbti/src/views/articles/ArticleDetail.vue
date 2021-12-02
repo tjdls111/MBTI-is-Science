@@ -142,7 +142,7 @@ export default {
       this.$store.dispatch('SetToken')
       axios({
         method:'post',
-        url:`http://15.165.76.174:80/articles/${this.articleId}/likes/`,
+        url:`https://mbti.link/articles/${this.articleId}/likes/`,
         headers: this.$store.state.config
       })
         .then(()=>{
@@ -163,7 +163,7 @@ export default {
       this.$store.dispatch('SetToken')
       axios({
         method:'post',
-        url:`http://15.165.76.174:80/articles/${this.articleId}/bookmark/`,
+        url:`https://mbti.link/articles/${this.articleId}/bookmark/`,
         headers: this.$store.state.config
       })
         .then(()=>{
@@ -185,7 +185,7 @@ export default {
       this.$store.dispatch('SetToken')
       axios({
         method:'delete',
-        url:`http://15.165.76.174:80/articles/${this.articleId}/`,
+        url:`https://mbti.link/articles/${this.articleId}/`,
         headers: this.$store.state.config
       })
         .then(()=>{
@@ -227,7 +227,7 @@ export default {
 
     axios({
       method:'get',
-      url:`http://15.165.76.174:80/articles/${this.articleId}/is_like/`,
+      url:`https://mbti.link/articles/${this.articleId}/is_like/`,
       headers: this.$store.state.config
     })
       .then(res=>{
@@ -242,7 +242,7 @@ export default {
 
     axios({
       method:'get',
-      url:`http://15.165.76.174:80/articles/${this.articleId}/is_bookmark/`,
+      url:`https://mbti.link/articles/${this.articleId}/is_bookmark/`,
       headers: this.$store.state.config
     })
       .then(res=>{

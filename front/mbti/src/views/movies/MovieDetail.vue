@@ -145,7 +145,7 @@ export default {
     // Pick 가져오기
     axios({
       method:'get',
-      url:`http://15.165.76.174:80/movies/${this.movieId}/is_pick/`,
+      url:`https://mbti.link/movies/${this.movieId}/is_pick/`,
       headers: this.$store.state.config
     })
       .then(res=>{
@@ -160,7 +160,7 @@ export default {
       // Actors 가져오기
     axios({
       method:'get',
-      url:`http://15.165.76.174:80/movies/${this.movieId}/actors/`,
+      url:`https://mbti.link/movies/${this.movieId}/actors/`,
       // headers: this.$store.state.config
     })
       .then(res=>{
@@ -174,7 +174,7 @@ export default {
     // reviews 가져오기
     axios({
       method:'get',
-      url:`http://15.165.76.174:80/movies/${this.movieId}/reviews/`,
+      url:`https://mbti.link/movies/${this.movieId}/reviews/`,
       // headers: {"Authorization":`JWT ${localStorage.getItem('jwt')}`}
     })
       .then(res=>{
@@ -190,7 +190,7 @@ export default {
       this.$store.dispatch('SetToken')
       axios({
         method:'post',
-        url:`http://15.165.76.174:80/movies/${this.movieId}/pick/`,
+        url:`https://mbti.link/movies/${this.movieId}/pick/`,
         headers: this.$store.state.config
       })
         .then(()=>{

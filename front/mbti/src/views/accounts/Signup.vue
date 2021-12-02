@@ -120,7 +120,7 @@ export default {
         // 정보 수정
         axios({
           method:'put',
-          url:`http://15.165.76.174:80/accounts/`,
+          url:`https://mbti.link/accounts/`,
           data: this.form,
           headers: this.$store.state.config
         })
@@ -138,7 +138,7 @@ export default {
       else {
       axios({
         method:'post',
-        url:'http://15.165.76.174:80/accounts/',
+        url:'https://mbti.link/accounts/',
         data: this.form
       })
         .then(()=>{
@@ -146,7 +146,7 @@ export default {
 
             axios({
               method:'post',
-              url:'http://15.165.76.174:80/accounts/api-token-auth/',
+              url:'https://mbti.link/accounts/api-token-auth/',
               data: {
                 username: this.form.username,
                 password: this.form.password

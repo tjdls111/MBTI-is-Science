@@ -58,7 +58,7 @@ export default {
     getRecommendList: function(){
       axios({
         method: 'get',
-        url: `http://15.165.76.174:80/movies/${this.userMbti}/mbti_recommend/`,
+        url: `https://mbti.link/movies/${this.userMbti}/mbti_recommend/`,
       })
         .then( (res) => {
           // console.log(res.data)

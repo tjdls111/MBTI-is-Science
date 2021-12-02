@@ -34,7 +34,7 @@ export default {
 
       axios({
         method: 'post',
-        url: `http://15.165.76.174:80/articles/${this.article_id}/comments/`,
+        url: `https://mbti.link/articles/${this.article_id}/comments/`,
         headers: {"Authorization":`JWT ${localStorage.getItem('jwt')}`},
         data : {"content" : this.content}
       })

@@ -79,7 +79,7 @@ export default {
 
       axios({
         method: 'get',
-        url: `http://15.165.76.174:80/movies/christmas/search/`,
+        url: `https://mbti.link/movies/christmas/search/`,
 
       })
         .then( (res) => {

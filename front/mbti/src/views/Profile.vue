@@ -167,7 +167,7 @@ export default {
     getProfile: function(){
       axios({
         method:'get',
-        url:`http://15.165.76.174:80/accounts/${this.user}/`
+        url:`https://mbti.link/accounts/${this.user}/`
       })
         .then(res=>{
           // console.log(res);
@@ -191,7 +191,7 @@ export default {
     account_delete: function(){
       axios({
         method:'delete',
-        url:`http://15.165.76.174:80/accounts/`,
+        url:`https://mbti.link/accounts/`,
         headers: this.$store.state.config
       })
         .then((res)=>{
@@ -216,7 +216,7 @@ export default {
 
       axios({
         method:'post',
-        url:`http://15.165.76.174:80/accounts/${this.user}/follow/`,
+        url:`https://mbti.link/accounts/${this.user}/follow/`,
         headers: this.$store.state.config
       })
         .then(()=>{
@@ -238,7 +238,7 @@ export default {
     changeProfile: function(){
       axios({
         method:'post',
-        url:`http://15.165.76.174:80/accounts/pick_profile/`,
+        url:`https://mbti.link/accounts/pick_profile/`,
         headers: this.$store.state.config,
         data: {
           "poster_number": this.selected_avatar,
@@ -263,7 +263,7 @@ export default {
     // 이용자가 이 유저를 팔로우 했는지?
     axios({
       method:'get',
-      url:`http://15.165.76.174:80/accounts/${this.user}/is_follow/`,
+      url:`https://mbti.link/accounts/${this.user}/is_follow/`,
       headers: this.$store.state.config
     })
       .then(res=>{

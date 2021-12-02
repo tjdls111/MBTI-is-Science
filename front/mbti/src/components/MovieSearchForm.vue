@@ -31,7 +31,7 @@ export default {
 
       axios({
         method: 'get',
-        url: `http://15.165.76.174:80/movies/${this.search.trim()}/search/`,
+        url: `https://mbti.link/movies/${this.search.trim()}/search/`,
 
       })
         .then( (res) => {

@@ -108,7 +108,7 @@ export default {
       if (localStorage.getItem('jwt')){
         axios({
           method:'post',
-          url:'http://15.165.76.174:80/accounts/mbti_change/',
+          url:'https://mbti.link/accounts/mbti_change/',
           headers: {"Authorization":`JWT ${localStorage.getItem('jwt')}`},
           data: {"mbti":this.mbti.toUpperCase()}
         })

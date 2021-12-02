@@ -126,7 +126,7 @@ export default {
         // article 수정
         axios({
           method:'put',
-          url:`http://15.165.76.174:80/articles/${this.article_pk}/`,
+          url:`https://mbti.link/articles/${this.article_pk}/`,
           data: articleForm,
           headers: {"Authorization":`JWT ${localStorage.getItem('jwt')}`},
         })
@@ -142,7 +142,7 @@ export default {
         // article 생성
         axios({
           method:'post',
-          url:`http://15.165.76.174:80/articles/`,
+          url:`https://mbti.link/articles/`,
           data: articleForm,
           headers: {"Authorization":`JWT ${localStorage.getItem('jwt')}`},
         })

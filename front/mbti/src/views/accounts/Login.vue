@@ -59,7 +59,7 @@ export default {
     login: function() {
       axios({
         method:'post',
-        url:'http://15.165.76.174:80/accounts/api-token-auth/',
+        url:'https://mbti.link/accounts/api-token-auth/',
         data: this.form
       })
         .then((res)=>{
@@ -70,7 +70,7 @@ export default {
 
           axios({
             method:'get',
-            url:`http://15.165.76.174:80/accounts/${this.form.username}/`
+            url:`https://mbti.link/accounts/${this.form.username}/`
           })
             .then(res=>{
               this.$store.dispatch("getProfileNum", res.data.poster_number)

@@ -61,7 +61,7 @@ export default {
     comment_delete: function(){
       axios({
         method:'delete',
-        url:`http://15.165.76.174:80/articles/comments/${this.comment_id}/`,
+        url:`https://mbti.link/articles/comments/${this.comment_id}/`,
         headers: {"Authorization":`JWT ${localStorage.getItem('jwt')}`}
       })
         .then(res=>{

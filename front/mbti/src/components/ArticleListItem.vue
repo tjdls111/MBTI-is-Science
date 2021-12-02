@@ -76,7 +76,7 @@ export default {
     deleteArticleListItem: function (article) {
       axios({
         method: 'delete',
-        url: `http://15.165.76.174:80/articles/${article.id}/`,
+        url: `https://mbti.link/articles/${article.id}/`,
         headers: this.setToken()
       })
         .then(res => {
@@ -95,7 +95,7 @@ export default {
 
       axios({
         method: 'put',
-        url: `http://15.165.76.174:80/articles/${article.id}/`,
+        url: `https://mbti.link/articles/${article.id}/`,
         data: articleItem,
         headers: this.setToken()
       })

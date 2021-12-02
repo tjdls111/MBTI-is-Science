@@ -55,7 +55,7 @@ export default {
     getRecommendList: function(){
       axios({
         method: 'get',
-        url: `http://15.165.76.174:80/movies/today_recommend/`,
+        url: `https://mbti.link/movies/today_recommend/`,
       })
         .then( (res) => {
           // console.log(res.data)
@@ -74,7 +74,7 @@ export default {
     getRecommendListBy: function(area_num){
       axios({
         method: 'get',
-        url: `http://15.165.76.174:80/movies/${area_num}/today_recommend/`,
+        url: `https://mbti.link/movies/${area_num}/today_recommend/`,
       })
         .then( (res) => {
           // console.log(res.data)

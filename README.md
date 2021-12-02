@@ -1,3 +1,0 @@
-# MBTI-is-Science
-
-ok

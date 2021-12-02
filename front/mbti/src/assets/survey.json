@@ -1,0 +1,277 @@
+{ 
+  "pages": [
+    {
+      "name": "page0",
+    "elements": [
+      {
+        "type": "html",
+        "html": "<h4> Welcome To Movie MBTI Test! </h4>"
+      }
+    ]
+    },
+    {
+    "name": "page1",
+    "elements": [
+    {
+      "type": "radiogroup",
+      "name": "question1",
+      "title": "당신은 배우가 되어 영화 촬영을 하게됩니다. 어디에서 스타일링을 받을 건가요??",
+      "valueName": 1,
+      "isRequired": true,
+      "choices": [
+      {
+        "value": "p",
+        "text": "소속사에게 맡긴다."
+       },
+       {
+        "value": "j",
+        "text": "주변 사람들에게 잘하는 곳을 물어보고 평점을 따져서 예약 후 찾아간다."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "page3",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question2",
+      "title": "살인청부업자 레옹이 된 당신, 그 때 살인마들을 피해 마틸다가 현관문을 두드린다.",
+      "valueName": 2,
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "t",
+        "text": "잘 알지도 못하는 사람 때문에 나까지 위험해질 순 없어. 곰곰히 생각해 보다가 결정한다."
+       },
+       {
+        "value": "f",
+        "text": "일단 문을 열어 아이를 구하고 망했다고 생각한다."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "page2",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question3",
+      "title": "마틸다의 가족을 죽인 범인을 알게 되었다.. 내 손에 쥐어진 총, 어떻게 복수할까?",
+      "valueName": 3,
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "j",
+        "text": "범인의 집을 알아내서 집앞에서 침착하게 기다렸다가 스나이퍼 총으로 한 방을 노린다."
+       },
+       {
+        "value": "p",
+        "text": "난 이미 한 마리 짐승. 범인이 눈앞에 보이는 순간 다발총으로 난사한다."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "page5",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question4",
+      "title": "복수하러 가는 당신의 차 안은?",
+      "valueName": 4,
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "p",
+        "text": "총, 먹다 남은 과자, 2013년도 신문...."
+       },
+       {
+        "value": "j",
+        "text": "차곡 차곡 정리되어 있다."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "page6",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question5",
+      "title": "범인을 쫓는 당신. 찰나의 순간에 범인이 스쳐 지나갔는데 어떻게 범인을 알아봤을까?",
+      "valueName": 5,
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "n",
+        "text": "범인의 전체적인 분위기를 기억했다."
+       },
+       {
+        "value": "s",
+        "text": "범인의 귀에 있는 특이한 모양의 점을 기억했다."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "page7",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question6",
+      "title": "범인을 쫒다가 함정에 빠져 낯선 곳으로 잡혀온 당신.. 여러 사람이 겁먹은 채로 떨고 있다.",
+      "valueName": 6,
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "e",
+        "text": "정적을 참지 못 하고 먼저 말을 건다."
+       },
+       {
+        "value": "i",
+        "text": "낯선 사람이 말을 걸자 화들짝 놀란다."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "page13",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question7",
+      "title": "성공적으로 첫 배역을 마친 것을 축하합니다. 이번에는 경찰이 되어 적국에 스파이로 보내진 당신, 어떤 업무로 지원할까요?",
+      "valueName": 7,
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "e",
+        "text": "사람들 속에 자연스럽게 녹아 들어가서 정보를 빼오는 일"
+       },
+       {
+        "value": "i",
+        "text": "혼자서 비밀스럽게 국경을 오가며 기밀 문서를 전달하는 일"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "page14",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question8",
+      "title": "유령이 나온다는 저택에서 하룻밤 머무는데, 무서운 소리가 들려온다.",
+      "valueName": 8,
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "t",
+        "text": "유령이 어디있어 ?? 바람 소리겠지."
+       },
+       {
+        "value": "f",
+        "text": "울면서 유서를 작성한다."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "page15",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question9",
+      "title": "유령의 집에서 머물다 보니, 갑자기 마법 능력이 생겼다.",
+      "valueName": 9,
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "s",
+        "text": "어떤 능력인지 잘 알아보고 마법 관련 전문인 입회 하에 마법을 사용한다."
+       },
+       {
+        "value": "n",
+        "text": "일단 써본다."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "page16",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question10",
+      "title": "마법 능력을 인정 받아 호그와트에 입학한 당신, 어떤 교수님의 수업을 들을까?",
+      "valueName": 10,
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "t",
+        "text": "철저하게 점수로 성적을 매기는 스네이프 교수님"
+       },
+       {
+        "value": "f",
+        "text": "성적은 낮아도 용기있게 싸운 기숙사에 점수를 주는 덤블도어 교수님"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "page17",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question11",
+      "title": "삼각관계에 놓인 당신, 둘 중에 누구를 선택할까? (성별 무관, 캐릭터 위주로 선택해주세요.)",
+      "valueName": 11,
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "s",
+        "text": "철두철미하고 냉정하지만 예쁘고 똑똑한 헤르미온느"
+       },
+       {
+        "value": "n",
+        "text": "허당이지만 귀엽고 매력있는 론 위즐리"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "page18",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question12",
+      "title": "호그와트의 졸업식이 다가왔다. 졸업 파티장에서 당신은?",
+      "valueName": 12,
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "e",
+        "text": "신나게 놀고 있는 파티 사진을 SNS에 올려 자랑한다."
+       },
+       {
+        "value": "i",
+        "text": "파티를 가지 않기 위해 기숙사에 숨어있는다."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }

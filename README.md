@@ -189,7 +189,7 @@
 
   ## 5. 자료
 
-  - 배포 서버 URL  : https://adoring-bose-8d7f71.netlify.app/
+  - 배포 서버 URL  : https://mbti-is-science.netlify.app/
   - 페이지, 컴포넌트 구상: https://drive.google.com/file/d/1sniFZYPOZpw_0_qTxduaY0eZdVff-VDp/view?usp=sharing
   - ERD : https://app.diagrams.net/#G1lYxHpxj51jsypjmoLq8l3rO3PGdqa01l
   - 만든 API: https://seoin.gitbook.io/mbti-is-science_api/reference/api-reference

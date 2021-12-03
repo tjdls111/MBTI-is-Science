@@ -1,9 +1,15 @@
 - # MBTI is Science
+SSAFY(삼성 청년 소프트웨어 아카데미) 6기 김서인, 조가예의 1학기 최종 프로젝트입니다.
+
+프로젝트 기간: 2021.11.17~2021.11.26.
+
+프로젝트 기간 이후에도 배포 문제를 해결했고, 종종 추가 기능 구현을 할 예정입니다.
+
 
   ## 1. 팀원 정보 및 업무 분담 내역
 
-  - 김서인: 백엔드 담당(Django API Server. 영화 API를 활용한 Data Seeding, API 가이드)
-  - 조가예: 프론트엔드 담당(Bootstrap 5, Vue.js, UI 구현)
+  - 김서인: 백엔드 담당(Django API Server. 영화 API를 활용한 Data Seeding, API 가이드) + Vue 기능 일부(프로필, 검색..)
+  - 조가예: 프론트엔드 담당(Bootstrap 5, Vue.js, UI 구현, 디자인)
 
   ## 2. 목표 서비스 구현 및 실제 구현 정도
 
